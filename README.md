@@ -49,19 +49,19 @@ You webserver needs access to the OpenSimulator database.
 
 * copy the content in a folder called "offline" (or whatever you like) in your
 webroot directory.
-`
+```bash
 git clone https://github.com/GuduleLapointe/offline-mail-forwarding.git offline
-`
+```
 * inside this directory, compy the example config file and adjust to your settings
-`
+```bash
 cp config.php.example config.php
-`
+```
 
 ## In OpenSimulator (grid or standalone)
 
 * In OpenSim.ini file adjust or add these setting under section [Messaging].
 On a grid, this has to be set for every region.
-`
+```ini
 [Messaging]
     OfflineMessageModule = OfflineMessageModule
     ; OfflineMessageModule = "Offline Message Module V2"
@@ -70,4 +70,4 @@ On a grid, this has to be set for every region.
     MuteListModule = MuteListModule
     MuteListURL = ${Const|BackOffice}/mute.php
     ForwardOfflineGroupMessages = false
-`
+```
