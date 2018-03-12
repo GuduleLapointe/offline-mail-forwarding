@@ -132,9 +132,9 @@ if ($method == "/SaveMessage/")
 				//   KEY `sentDate` (`sentDate`),
 				//   KEY `imSessionID` (`imSessionID`)
 				// ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-				if($data['fromAgentName'] == "Server") $data[fromAgentName] = "Speculoos";
+				if($data['fromAgentName'] == "Server") $data[fromAgentName] = GRID_NAME;
 
-				$headers .= "From: $data[fromAgentName] <noreply@speculoos.world>\r\n";
+				$headers .= "From: $data[fromAgentName] <" . SENDER_MAIL . ">\r\n";
 				// $body = $data['message']
 				// 	. "\r\n"
 				// 	. "\r\n------"
