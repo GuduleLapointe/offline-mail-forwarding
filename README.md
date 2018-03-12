@@ -71,3 +71,7 @@ On a grid, this has to be set for every region.
     MuteListURL = ${Const|BackOffice}/mute.php
     ForwardOfflineGroupMessages = false
 ```
+## In the viewer
+
+Now mail forwarding is active on the server, but users wanting to enable it
+have to do it from viewer preferences (in Chat or Communication tab).
