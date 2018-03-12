@@ -1,0 +1,26 @@
+<?php
+/*
+ * Mail forwarding enabled version @ 2010-2018 gudule.lapointe@speculoos.world
+ *
+ * Based on http://opensimulator.org/wiki/Offline_Messaging
+ * Copyright (c) 2007, 2008 Contributors, http://opensimulator.org/
+ * See CONTRIBUTORS for a full list of copyright holders.
+ *
+ * This looks like its lifted from http://www.weberdev.com/get_example-4372.html
+ * I'd contact the original developer for licensing info, but his website is broken.
+ *
+ * See LICENSE for the full licensing terms of this file.
+ *
+*/
+
+define("DB_TYPE","mysql"); // only mysql for now
+define("DB_HOST","localhost");
+define("DB_NAME","opensim");
+define("DB_USER","opensim");
+define("DB_PASS","password");
+
+define("OFFLINE_IM_TBL", "offline");
+
+define("GRID_NAME", "Speculoos");
+define("SENDER_MAIL", "no-reply@example.com");
+?>
