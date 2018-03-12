@@ -196,7 +196,7 @@ if ($method == "/SaveMessage/")
 					. "\r\n"
 					. "<hr>"
 					. "<p style='font-size:small'><b>$gridName</b> Instant Messages mail forwarding by speculoos.world (alpha version)."
-						. "<br>Please <a href='$loginuri'>log in-world</a> to answer to this message. Emails to the sender address will not be procesed."
+						. "<br>Please log in-world to answer to this message. Emails to the sender address will not be procesed."
 						. "<br>To disable mail notifications, uncheck option \"Send IM to mail\" in your viewer preferences (tab \"Chat\" or \"Communications\")."
 						. "</p></body></html>";
 
